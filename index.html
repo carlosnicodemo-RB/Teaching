@@ -79,12 +79,22 @@
         border-radius: 12px;
         border: 1px solid #e2e8f0;
       }
+
+      .center{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+        margin-top: 24px;
+        justify-self: center;
+        justify-items: center;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <main class="card">
       <h1>Projects</h1>
-      <section class="grid">
+      <section class="center">
         <article class="item">
           <a href="https://forms.gle/R3D6QcyVVXUja1bJ6"><h2>T6 Survey</h2></a>
           <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://forms.gle/R3D6QcyVVXUja1bJ6" alt="T6 Survey" />
