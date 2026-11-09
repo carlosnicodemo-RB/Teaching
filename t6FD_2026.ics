@@ -153,7 +153,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:t6fd-2026-event-017@planejamento-escolar
 DTSTAMP:20260810T231000Z
-SUMMARY:T6FD - P7 - Aula 04 - Test 4 - Speaking and Listening
+SUMMARY:T6FD - P7 - Aula 03 - Test 4 - Speaking and Listening
 DTSTART;TZID=America/Sao_Paulo:20261127T144500
 DTEND;TZID=America/Sao_Paulo:20261127T180000
 STATUS:CONFIRMED
